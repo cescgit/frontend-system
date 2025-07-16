@@ -1,0 +1,50 @@
+@import "tailwindcss";
+@import "@radix-ui/themes/styles.css";
+
+@layer utilities {
+    .scrollbar-thin-custom {
+      scrollbar-width: thin; /* Firefox */
+    }
+  
+    .scrollbar-thin-custom::-webkit-scrollbar {
+      width: 4px; /* Chrome, Safari, Edge */
+      height: 4px;
+    }
+  
+    .scrollbar-thin-custom::-webkit-scrollbar-thumb {
+      background-color: rgba(107, 114, 128, 0.7); /* gray-500 */
+      border-radius: 20px;
+    }
+  
+    .scrollbar-thin-custom::-webkit-scrollbar-track {
+      background-color: rgba(229, 231, 235, 1); /* gray-200 */
+    }
+  }
+
+@keyframes overlayShow {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes contentShow {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -48%) scale(0.96);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+.overlayShow {
+    animation: overlayShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.contentShow {
+    animation: contentShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
