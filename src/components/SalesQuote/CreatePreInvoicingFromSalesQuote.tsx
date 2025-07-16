@@ -14,12 +14,12 @@ import { SalesQuoteFormDataEdit, SalesQuoteFormDataInfo } from "../../types/sale
 import { stateValue } from "../../locales/valueState";
 import { DataItemCustomer } from "../../types/customerData";
 import ProductsComboBoxInventory from "../Product/ProductComboBoxInventory";
-import { getDetailsSalesQuoteById } from "../../api/SalesQuoteAPI";
+import { getDetailsSalesQuoteById } from "../../apis/SalesQuoteAPI";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
 import { AuthPermissions } from "../../types/authData";
-import { createPreInvoicingFromSalesQuote } from "../../api/PreInvoicingAPI";
-import { getCustomers } from "../../api/CustomerAPI";
+import { createPreInvoicingFromSalesQuote } from "../../apis/PreInvoicingAPI";
+import { getCustomers } from "../../apis/CustomerAPI";
 
 const MySwal = withReactContent(Swal);
 

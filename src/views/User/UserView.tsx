@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query"
-import { getUsers } from "../../api/UserAPI"
+import { getUsers } from "../../apis/UserAPI"
 import { useState } from "react"
 import { PermissionsUserFormData, UserFormDataDelete, UserFormDataInfo } from "../../types/userData"
 import Loader from "../../components/Loader"

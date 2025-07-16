@@ -8,7 +8,7 @@ import { JWTData } from "../../types/jwtData";
 import { jwtDecode } from "jwt-decode";
 import ErrorMessage from "../ErrorMessage";
 import { AccountingAccountFormDataEdit } from "../../types/acountingAccountData";
-import { getAccountingAccountById, updateAccountingAccount } from "../../api/AccountingAccountAPI";
+import { getAccountingAccountById, updateAccountingAccount } from "../../apis/AccountingAccountAPI";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
 

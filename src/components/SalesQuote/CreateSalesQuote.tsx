@@ -10,11 +10,11 @@ import { formatCurrency } from "../../utils/utils";
 import { Table } from "@radix-ui/themes";
 import NotFoundEmpty from "../NotFoundEmpty";
 import { DataItem, TempPurchasingFormData, TempPurchasingFormDataAdd } from "../../types/buysData";
-import { createSalesQuotes } from "../../api/SalesQuoteAPI";
+import { createSalesQuotes } from "../../apis/SalesQuoteAPI";
 import { SalesQuoteFormDataAdd } from "../../types/salesQuoteData";
 import { stateValue } from "../../locales/valueState";
 import { DataItemCustomer } from "../../types/customerData";
-import { getCustomers } from "../../api/CustomerAPI";
+import { getCustomers } from "../../apis/CustomerAPI";
 import ProductsComboBoxInventory from "../Product/ProductComboBoxInventory";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'

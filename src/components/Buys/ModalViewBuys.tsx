@@ -3,13 +3,13 @@ import { useQuery } from "@tanstack/react-query";
 import { Search, X } from "lucide-react";
 import { Dialog } from "radix-ui";
 import { useEffect, useState } from "react";
-import { getDetailsBuysById } from "../../api/BuysAPI";
+import { getDetailsBuysById } from "../../apis/BuysAPI";
 import { BuysFormDataInfo, TempPurchasingFormDataDetails } from "../../types/buysData";
 import { formatCurrency, formatDate } from "../../utils/utils";
 import { Table } from "@radix-ui/themes";
 import NotFoundEmpty from "../NotFoundEmpty";
 import { SupplierFormDataInfo } from "../../types/supplierData";
-import { getSupplier } from "../../api/SupplierAPI";
+import { getSupplier } from "../../apis/SupplierAPI";
 
 
 export default function ModalViewBuys({ buys }: { buys: BuysFormDataInfo }) {

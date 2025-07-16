@@ -5,7 +5,7 @@ import { useQuery } from "@tanstack/react-query";
 import { Table, Tooltip } from "@radix-ui/themes";
 import NotFoundEmpty from "../NotFoundEmpty";
 import { formatCurrency, formatDate } from "../../utils/utils";
-import { getBuys } from "../../api/BuysAPI";
+import { getBuys } from "../../apis/BuysAPI";
 import { BuysFormDataInfo } from "../../types/buysData";
 
 type BuysProps = {

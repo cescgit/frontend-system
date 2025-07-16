@@ -8,7 +8,7 @@ import { JWTData } from "../../types/jwtData";
 import { jwtDecode } from "jwt-decode";
 import ErrorMessage from "../ErrorMessage";
 import { stateValue } from "../../locales/valueState";
-import { createCategory } from "../../api/CategoryAPI";
+import { createCategory } from "../../apis/CategoryAPI";
 import { CategoryFormDataAdd } from "../../types/categoryData";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'

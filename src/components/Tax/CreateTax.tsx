@@ -7,7 +7,7 @@ import { useState } from "react";
 import { JWTData } from "../../types/jwtData";
 import { jwtDecode } from "jwt-decode";
 import ErrorMessage from "../ErrorMessage";
-import { createTax } from "../../api/TaxesAPI";
+import { createTax } from "../../apis/TaxesAPI";
 import { TaxesFormDataAdd } from "../../types/taxesData";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'

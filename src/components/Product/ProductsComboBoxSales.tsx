@@ -5,7 +5,7 @@ import { useQuery } from "@tanstack/react-query";
 import { Badge, Table, Tooltip } from "@radix-ui/themes";
 import NotFoundEmpty from "../NotFoundEmpty";
 import { useNavigate } from "react-router-dom";
-import { getInventory } from "../../api/InventoryAPI";
+import { getInventory } from "../../apis/InventoryAPI";
 import { TempPurchasingFormData } from "../../types/buysData";
 
 

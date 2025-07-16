@@ -7,9 +7,9 @@ import { formatCurrency, formatDate } from "../../utils/utils";
 import { Table } from "@radix-ui/themes";
 import NotFoundEmpty from "../NotFoundEmpty";
 import { SalesFormDataInfo, TempSalesFormDataDetails } from "../../types/salesData";
-import { getCustomers } from "../../api/CustomerAPI";
+import { getCustomers } from "../../apis/CustomerAPI";
 import { CustomerFormDataInfo } from "../../types/customerData";
-import { getDetailsSalesById } from "../../api/SalesAPI";
+import { getDetailsSalesById } from "../../apis/SalesAPI";
 
 
 export default function ModalViewSales({ sales }: { sales: SalesFormDataInfo }) {

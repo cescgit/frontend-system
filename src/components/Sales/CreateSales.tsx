@@ -11,7 +11,7 @@ import { Table } from "@radix-ui/themes";
 import NotFoundEmpty from "../NotFoundEmpty";
 import { DataItem, SalesFormDataAdd } from "../../types/salesData";
 import { TempPurchasingFormData, TempPurchasingFormDataAdd } from "../../types/buysData";
-import { createSales } from "../../api/SalesAPI";
+import { createSales } from "../../apis/SalesAPI";
 import ProductsComboBoxSales from "../Product/ProductsComboBoxSales";
 import CustomerComboBoxSales from "../Customer/CustomerComboBoxSales";
 import { useMutation, useQueryClient } from "@tanstack/react-query";

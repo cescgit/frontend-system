@@ -3,7 +3,7 @@ import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { AlertTriangle } from "lucide-react";
 import { AlertDialog } from "radix-ui";
 import { TaxesFormDataDelete } from "../../types/taxesData";
-import { deleteTax } from "../../api/TaxesAPI";
+import { deleteTax } from "../../apis/TaxesAPI";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
 

@@ -4,7 +4,7 @@ import { Eye, EyeOff, Plus, Save, X } from "lucide-react";
 import { Dialog } from "radix-ui";
 import { useForm } from "react-hook-form";
 import { useState } from "react";
-import { createUser } from "../../api/UserAPI";
+import { createUser } from "../../apis/UserAPI";
 import { UserFormDataAdd } from "../../types/userData";
 import { JWTData } from "../../types/jwtData";
 import { jwtDecode } from "jwt-decode";

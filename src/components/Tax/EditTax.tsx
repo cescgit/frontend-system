@@ -8,7 +8,7 @@ import { JWTData } from "../../types/jwtData";
 import { jwtDecode } from "jwt-decode";
 import ErrorMessage from "../ErrorMessage";
 import { TaxesFormDataEdit } from "../../types/taxesData";
-import { getTaxById, updateTax } from "../../api/TaxesAPI";
+import { getTaxById, updateTax } from "../../apis/TaxesAPI";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
 

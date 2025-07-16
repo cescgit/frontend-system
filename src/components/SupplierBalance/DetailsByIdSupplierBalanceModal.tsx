@@ -2,7 +2,7 @@ import { Navigate, useLocation, useNavigate } from "react-router-dom";
 import { X } from "lucide-react";
 import { Dialog } from "radix-ui";
 import { useQuery } from "@tanstack/react-query";
-import { getDetailsByBalanceSupplier } from "../../api/SupplierBalanceAPI";
+import { getDetailsByBalanceSupplier } from "../../apis/SupplierBalanceAPI";
 import { formatCurrency, formatDate } from "../../utils/utils";
 import { useEffect, useState } from "react";
 

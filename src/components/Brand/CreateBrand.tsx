@@ -8,7 +8,7 @@ import { JWTData } from "../../types/jwtData";
 import { jwtDecode } from "jwt-decode";
 import ErrorMessage from "../ErrorMessage";
 import { stateValue } from "../../locales/valueState";
-import { createBrand } from "../../api/BrandAPI";
+import { createBrand } from "../../apis/BrandAPI";
 import { BrandFormDataAdd } from "../../types/brandData";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'

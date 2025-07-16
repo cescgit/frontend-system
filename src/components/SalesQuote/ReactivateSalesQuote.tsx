@@ -2,7 +2,7 @@ import { useState } from "react"
 import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { Info } from "lucide-react";
 import { AlertDialog } from "radix-ui";
-import { reactivateSalesQuote } from "../../api/SalesQuoteAPI";
+import { reactivateSalesQuote } from "../../apis/SalesQuoteAPI";
 import { SalesQuoteFormDataDelete } from "../../types/salesQuoteData";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'

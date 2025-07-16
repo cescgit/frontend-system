@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import { JWTData } from "../../types/jwtData";
 import { jwtDecode } from "jwt-decode";
 import ErrorMessage from "../ErrorMessage";
-import { createBuys } from "../../api/BuysAPI";
+import { createBuys } from "../../apis/BuysAPI";
 import { BuysFormDataAdd, TempPurchasingFormDataDetails } from "../../types/buysData";
 import { ProductDataCombobox } from "../../types/productData";
 import { SupplierFormDataInfo } from "../../types/supplierData";

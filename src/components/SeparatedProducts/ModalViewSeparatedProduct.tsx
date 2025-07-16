@@ -8,10 +8,10 @@ import { Table } from "@radix-ui/themes";
 import NotFoundEmpty from "../NotFoundEmpty";
 import { stateValue } from "../../locales/valueState";
 import { TempPurchasingFormData } from "../../types/buysData";
-import { getCustomers } from "../../api/CustomerAPI";
+import { getCustomers } from "../../apis/CustomerAPI";
 import { CustomerFormDataInfo, DataItemCustomer } from "../../types/customerData";
 import { SeparatedProductFormDataInfo } from "../../types/separatedProductsData";
-import { getDetailsSeparatedproductById } from "../../api/SeparatedProductAPI";
+import { getDetailsSeparatedproductById } from "../../apis/SeparatedProductAPI";
 
 export default function ModalViewSeparatedProduct({ separatedProduct }: { separatedProduct: SeparatedProductFormDataInfo }) {
     const navigate = useNavigate()

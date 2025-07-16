@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { UserFormDataDelete } from "../../types/userData"
 import { useMutation, useQueryClient } from "@tanstack/react-query"
-import { deleteUser } from "../../api/UserAPI"
+import { deleteUser } from "../../apis/UserAPI"
 import { AlertTriangle } from "lucide-react";
 import { AlertDialog } from "radix-ui";
 import Swal from "sweetalert2";

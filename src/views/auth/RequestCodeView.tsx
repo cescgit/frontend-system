@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { useMutation } from "@tanstack/react-query";
 import { RequestConfirmationCodeForm } from "../../types/authData";
-import { requestConfirmationCode } from "../../api/AuthAPI";
+import { requestConfirmationCode } from "../../apis/AuthAPI";
 import ErrorMessage from "../../components/ErrorMessage";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'

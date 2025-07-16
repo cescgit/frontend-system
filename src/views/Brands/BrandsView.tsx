@@ -6,7 +6,7 @@ import { Badge, Button, Dialog, DropdownMenu, Table, Tooltip } from "@radix-ui/t
 import { formatDate } from "../../utils/utils"
 import { useLocation, useNavigate } from "react-router-dom"
 import NotFoundEmpty from "../../components/NotFoundEmpty"
-import { getBrands } from "../../api/BrandAPI"
+import { getBrands } from "../../apis/BrandAPI"
 import { BrandFormDataDelete, BrandFormDataInfo } from "../../types/brandData"
 import ToogleFieldsDialogBrand from "../../components/Brand/ToogleFieldsDialogBrand"
 import CreateBrand from "../../components/Brand/CreateBrand"

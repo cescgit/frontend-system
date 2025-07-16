@@ -8,7 +8,7 @@ import { JWTData } from "../../types/jwtData";
 import { jwtDecode } from "jwt-decode";
 import ErrorMessage from "../ErrorMessage";
 import { WeightFormDataEdit } from "../../types/weightData";
-import { getWeightById, updateWeight } from "../../api/WeightAPI";
+import { getWeightById, updateWeight } from "../../apis/WeightAPI";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
 

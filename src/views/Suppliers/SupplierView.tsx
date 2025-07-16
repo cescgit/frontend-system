@@ -6,7 +6,7 @@ import { Badge, Button, Dialog, DropdownMenu, Table, Tooltip } from "@radix-ui/t
 import { formatDate } from "../../utils/utils"
 import { useLocation, useNavigate } from "react-router-dom"
 import NotFoundEmpty from "../../components/NotFoundEmpty"
-import { getSupplier } from "../../api/SupplierAPI"
+import { getSupplier } from "../../apis/SupplierAPI"
 import { SupplierFormDataDelete, SupplierFormDataInfo } from "../../types/supplierData"
 import ToogleFieldsDialogSupplier from "../../components/Supplier/ToogleFieldsDialogSupplier"
 import CreateSupplier from "../../components/Supplier/CreateSupplier"

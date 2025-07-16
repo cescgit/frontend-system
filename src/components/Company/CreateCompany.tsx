@@ -8,7 +8,7 @@ import { JWTData } from "../../types/jwtData";
 import { jwtDecode } from "jwt-decode";
 import ErrorMessage from "../ErrorMessage";
 import { CompanyFormDataAdd } from "../../types/companyData";
-import { createCompany } from "../../api/CompanyAPI";
+import { createCompany } from "../../apis/CompanyAPI";
 import SuccessMessage from "../SuccessMessage";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'

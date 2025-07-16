@@ -3,7 +3,7 @@ import { useState } from "react";
 import { PinInput, PinInputField } from "@chakra-ui/pin-input";
 import { useMutation } from "@tanstack/react-query";
 import { ConfirmToken } from "../../types/authData";
-import { confirmAccount } from "../../api/AuthAPI";
+import { confirmAccount } from "../../apis/AuthAPI";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
 

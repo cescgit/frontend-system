@@ -8,7 +8,7 @@ import { JWTData } from "../../types/jwtData";
 import { jwtDecode } from "jwt-decode";
 import ErrorMessage from "../ErrorMessage";
 import { UnitOfMeasureFormDataEdit } from "../../types/unitOfMeasureData";
-import { getUnitOfMeasureById, updateUnitOfMeasure } from "../../api/UnitOfMeasureAPI";
+import { getUnitOfMeasureById, updateUnitOfMeasure } from "../../apis/UnitOfMeasureAPI";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
 

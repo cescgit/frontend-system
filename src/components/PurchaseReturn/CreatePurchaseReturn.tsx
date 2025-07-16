@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import { PurchaseReturnFormDataAdd, TempPurchaseReturnFormData } from "../../types/purchaseReturnData";
-import { createPurchaseReturn } from "../../api/PurchaseReturnAPI";
+import { createPurchaseReturn } from "../../apis/PurchaseReturnAPI";
 import { Dialog } from "radix-ui";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -8,8 +8,8 @@ import { useEffect, useState } from "react";
 import { BuysFormDataInfo, TempPurchasingFormDataDetails } from "../../types/buysData";
 import { JWTData } from "../../types/jwtData";
 import { jwtDecode } from "jwt-decode";
-import { getDetailsBuysById } from "../../api/BuysAPI";
-import { getSupplier } from "../../api/SupplierAPI";
+import { getDetailsBuysById } from "../../apis/BuysAPI";
+import { getSupplier } from "../../apis/SupplierAPI";
 import { Calculator, Fingerprint, MoveLeft, MoveRight, Plus, X } from "lucide-react";
 import { Table, Tooltip } from "@radix-ui/themes";
 import { SupplierFormDataInfo } from "../../types/supplierData";

@@ -7,7 +7,7 @@ import { useState } from "react";
 import { JWTData } from "../../types/jwtData";
 import { jwtDecode } from "jwt-decode";
 import ErrorMessage from "../ErrorMessage";
-import { createWeight } from "../../api/WeightAPI";
+import { createWeight } from "../../apis/WeightAPI";
 import { WeightFormDataAdd } from "../../types/weightData";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'

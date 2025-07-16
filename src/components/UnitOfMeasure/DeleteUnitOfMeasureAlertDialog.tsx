@@ -3,7 +3,7 @@ import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { AlertTriangle } from "lucide-react";
 import { AlertDialog } from "radix-ui";
 import { UnitOfMeasureFormDataDelete } from "../../types/unitOfMeasureData";
-import { deleteUniofMeasure } from "../../api/UnitOfMeasureAPI";
+import { deleteUniofMeasure } from "../../apis/UnitOfMeasureAPI";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
 

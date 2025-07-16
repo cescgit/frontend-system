@@ -2,7 +2,7 @@ import { MousePointerClick, SquareMousePointer, X } from "lucide-react";
 import { Dialog } from "radix-ui";
 import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
-import { getProducts } from "../../api/ProductsAPI";
+import { getProducts } from "../../apis/ProductsAPI";
 import { Table, Tooltip } from "@radix-ui/themes";
 import NotFoundEmpty from "../NotFoundEmpty";
 import { formatCurrency } from "../../utils/utils";

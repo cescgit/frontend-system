@@ -5,7 +5,7 @@ import { useQuery } from "@tanstack/react-query";
 import { Table, Tooltip } from "@radix-ui/themes";
 import NotFoundEmpty from "../NotFoundEmpty";
 import { SupplierFormDataInfo } from "../../types/supplierData";
-import { getSupplier } from "../../api/SupplierAPI";
+import { getSupplier } from "../../apis/SupplierAPI";
 
 
 export default function SupplierComboBoxBuys({ onSelectionChange }: { onSelectionChange: (supplier: SupplierFormDataInfo) => void }) {    

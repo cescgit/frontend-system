@@ -6,8 +6,8 @@ import { useEffect, useState } from "react";
 import { Table } from "@radix-ui/themes";
 import NotFoundEmpty from "../NotFoundEmpty";
 import { formatCurrency, formatDate } from "../../utils/utils";
-import { getCustomerBalanceByIdCustomer } from "../../api/CustomerBalanceAPI";
-import { getCustomers } from "../../api/CustomerAPI";
+import { getCustomerBalanceByIdCustomer } from "../../apis/CustomerBalanceAPI";
+import { getCustomers } from "../../apis/CustomerAPI";
 import { CustomerFormDataInfo } from "../../types/customerData";
 
 

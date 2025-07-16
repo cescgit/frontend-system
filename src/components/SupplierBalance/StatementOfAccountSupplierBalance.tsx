@@ -4,9 +4,9 @@ import { Search, X } from "lucide-react";
 import { Dialog } from "radix-ui";
 import { useEffect, useState } from "react";
 import { Table } from "@radix-ui/themes";
-import { getSupplierBalanceByIdSupplier } from "../../api/SupplierBalanceAPI";
+import { getSupplierBalanceByIdSupplier } from "../../apis/SupplierBalanceAPI";
 import { SupplierFormDataInfo } from "../../types/supplierData";
-import { getSupplier } from "../../api/SupplierAPI";
+import { getSupplier } from "../../apis/SupplierAPI";
 import NotFoundEmpty from "../NotFoundEmpty";
 import { formatCurrency, formatDate } from "../../utils/utils";
 

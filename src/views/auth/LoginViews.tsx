@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { Eye, EyeOff, Mail, Lock } from "lucide-react";
 import { useMutation } from "@tanstack/react-query";
 import { UserLoginForm } from "../../types/authData";
-import { authenticateUser } from "../../api/AuthAPI";
+import { authenticateUser } from "../../apis/AuthAPI";
 import ErrorMessage from "../../components/ErrorMessage";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'

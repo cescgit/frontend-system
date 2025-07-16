@@ -9,7 +9,7 @@ import { jwtDecode } from "jwt-decode";
 import ErrorMessage from "../ErrorMessage";
 import { stateValue } from "../../locales/valueState";
 import { UserFormDataEdit } from "../../types/userData";
-import { getUserById, updateByManagerUser } from "../../api/UserAPI";
+import { getUserById, updateByManagerUser } from "../../apis/UserAPI";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
 

@@ -12,14 +12,14 @@ import NotFoundEmpty from "../NotFoundEmpty";
 import { DataItem, TempPurchasingFormData, TempPurchasingFormDataAdd } from "../../types/buysData";
 import { stateValue } from "../../locales/valueState";
 import { DataItemCustomer } from "../../types/customerData";
-import { getCustomers } from "../../api/CustomerAPI";
+import { getCustomers } from "../../apis/CustomerAPI";
 import ProductsComboBoxInventory from "../Product/ProductComboBoxInventory";
-import { createSalesFromSeparatedProduct } from "../../api/SalesAPI";
+import { createSalesFromSeparatedProduct } from "../../apis/SalesAPI";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
 import { SeparatedProductFormDataEdit, SeparatedProductFormDataInfo } from "../../types/separatedProductsData";
 import { AuthPermissions } from "../../types/authData";
-import { getDetailsSeparatedproductById } from "../../api/SeparatedProductAPI";
+import { getDetailsSeparatedproductById } from "../../apis/SeparatedProductAPI";
 
 const MySwal = withReactContent(Swal);
 

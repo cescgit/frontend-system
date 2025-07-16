@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { ProductDataCombobox } from "../../types/productData";
-import { getKardexByDate, getKardexById, getKardexByidAndDate } from "../../api/kardeKAPI";
+import { getKardexByDate, getKardexById, getKardexByidAndDate } from "../../apis/kardeKAPI";
 import { useQuery } from "@tanstack/react-query";
 import ToogleFieldsDialogKardex from "../../components/Kardex/ToogleFieldsDialogKardex";
 import { Badge, Dialog, Table, Tooltip } from "@radix-ui/themes";

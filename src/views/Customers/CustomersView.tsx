@@ -6,7 +6,7 @@ import { Badge, Button, Dialog, DropdownMenu, Table, Tooltip } from "@radix-ui/t
 import { formatCurrency, formatDate } from "../../utils/utils"
 import { useLocation, useNavigate } from "react-router-dom"
 import NotFoundEmpty from "../../components/NotFoundEmpty"
-import { getCustomers } from "../../api/CustomerAPI"
+import { getCustomers } from "../../apis/CustomerAPI"
 import { CustomerFormDataDelete, CustomerFormDataInfo } from "../../types/customerData"
 import ToogleFieldsDialogCustomer from "../../components/Customer/ToogleFiledsDialogCustomer"
 import DeleteCustomerAlertDialog from "../../components/Customer/DeleteCustomerAlertDialog"

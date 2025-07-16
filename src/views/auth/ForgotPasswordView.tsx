@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useMutation } from "@tanstack/react-query";
 import { Mail } from "lucide-react";
 import { ForgotPasswordForm } from "../../types/authData";
-import { forgotPassword } from "../../api/AuthAPI";
+import { forgotPassword } from "../../apis/AuthAPI";
 import ErrorMessage from "../../components/ErrorMessage";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'

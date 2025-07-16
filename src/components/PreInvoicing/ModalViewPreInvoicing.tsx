@@ -6,10 +6,10 @@ import { useEffect, useState } from "react";
 import { formatCurrency, formatDate } from "../../utils/utils";
 import { Table } from "@radix-ui/themes";
 import NotFoundEmpty from "../NotFoundEmpty";
-import { getCustomers } from "../../api/CustomerAPI";
+import { getCustomers } from "../../apis/CustomerAPI";
 import { CustomerFormDataInfo } from "../../types/customerData";
 import { PreInvoicingFormDataInfo, TempPreInvoicingFormDataDetails } from "../../types/preInvoicingData";
-import { getDetailsPreInvoicingById } from "../../api/PreInvoicingAPI";
+import { getDetailsPreInvoicingById } from "../../apis/PreInvoicingAPI";
 
 
 export default function ModalViewpreInvoicing({ preInvoicing }: { preInvoicing: PreInvoicingFormDataInfo }) {

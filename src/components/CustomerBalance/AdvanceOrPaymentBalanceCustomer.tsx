@@ -11,7 +11,7 @@ import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
 import ErrorMessage from "../ErrorMessage";
 import { CustomerBalanceFormDataCustomerAdd } from "../../types/customerBalanceData";
-import { createAdvanceOrPaymentCustomer } from "../../api/CustomerBalanceAPI";
+import { createAdvanceOrPaymentCustomer } from "../../apis/CustomerBalanceAPI";
 
 
 const MySwal = withReactContent(Swal);

@@ -9,7 +9,7 @@ import { jwtDecode } from "jwt-decode";
 import ErrorMessage from "../ErrorMessage";
 import { stateValue } from "../../locales/valueState";
 import { CategoryFormDataEdit } from "../../types/categoryData";
-import { getCategoryById, updateCategory } from "../../api/CategoryAPI";
+import { getCategoryById, updateCategory } from "../../apis/CategoryAPI";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
 

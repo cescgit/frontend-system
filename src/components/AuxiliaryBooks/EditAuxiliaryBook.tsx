@@ -8,7 +8,7 @@ import { JWTData } from "../../types/jwtData";
 import { jwtDecode } from "jwt-decode";
 import ErrorMessage from "../ErrorMessage";
 import { AuxiliaryBookFormDataEdit } from "../../types/auxiliaryBookData";
-import { getAuxiliaryBookById, updateAuxiliaryBook } from "../../api/AuxiliaryBookAPI";
+import { getAuxiliaryBookById, updateAuxiliaryBook } from "../../apis/AuxiliaryBookAPI";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
 

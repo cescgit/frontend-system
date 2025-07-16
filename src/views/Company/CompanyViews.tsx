@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { getCompanyData } from "../../api/CompanyAPI";
+import { getCompanyData } from "../../apis/CompanyAPI";
 import { CompanyFormDataInfo } from "../../types/companyData";
 import { AuthPermissions } from "../../types/authData";
 import Loader from "../../components/Loader";

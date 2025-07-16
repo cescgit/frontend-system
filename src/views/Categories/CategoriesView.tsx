@@ -6,7 +6,7 @@ import { Badge, Button, Dialog, DropdownMenu, Table, Tooltip } from "@radix-ui/t
 import { formatDate } from "../../utils/utils"
 import { useLocation, useNavigate } from "react-router-dom"
 import NotFoundEmpty from "../../components/NotFoundEmpty"
-import { getCategories } from "../../api/CategoryAPI"
+import { getCategories } from "../../apis/CategoryAPI"
 import { CategoryFormDataDelete, CategoryFormDataInfo } from "../../types/categoryData"
 import ToogleFieldsDialogCategory from "../../components/Category/ToogleFieldsDialogCategory"
 import DeleteCategoryAlertDialog from "../../components/Category/DeleteCategoryAlertDialog"

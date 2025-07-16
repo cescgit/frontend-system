@@ -5,7 +5,7 @@ import { Dialog } from "radix-ui";
 import { useForm } from "react-hook-form";
 import { useEffect, useState } from "react";
 import { PermissionsUserFormData } from "../../types/userData";
-import { addOrUpdatePermissionsUser, getPermissionsUser } from "../../api/UserAPI";
+import { addOrUpdatePermissionsUser, getPermissionsUser } from "../../apis/UserAPI";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
 

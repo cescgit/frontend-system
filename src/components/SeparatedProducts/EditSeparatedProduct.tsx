@@ -12,10 +12,10 @@ import NotFoundEmpty from "../NotFoundEmpty";
 import { DataItem, TempPurchasingFormData, TempPurchasingFormDataAdd } from "../../types/buysData";
 import { stateValue } from "../../locales/valueState";
 import { DataItemCustomer } from "../../types/customerData";
-import { getCustomers } from "../../api/CustomerAPI";
+import { getCustomers } from "../../apis/CustomerAPI";
 import ProductsComboBoxInventory from "../Product/ProductComboBoxInventory";
 import { SeparatedProductFormDataEdit } from "../../types/separatedProductsData";
-import { getDetailsSeparatedproductById, updateSeparatedProduct } from "../../api/SeparatedProductAPI";
+import { getDetailsSeparatedproductById, updateSeparatedProduct } from "../../apis/SeparatedProductAPI";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
 import { AuthPermissions } from "../../types/authData";

@@ -5,7 +5,7 @@ import { useQuery } from "@tanstack/react-query";
 import { Table, Tooltip } from "@radix-ui/themes";
 import NotFoundEmpty from "../NotFoundEmpty";
 import { CustomerFormDataInfo } from "../../types/customerData";
-import { getCustomers } from "../../api/CustomerAPI";
+import { getCustomers } from "../../apis/CustomerAPI";
 
 
 export default function CustomerComboBoxSales({ onSelectionChange }: { onSelectionChange: (customer: CustomerFormDataInfo) => void }) {    

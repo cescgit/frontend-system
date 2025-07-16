@@ -6,7 +6,7 @@ import { Badge, Table, Tooltip } from "@radix-ui/themes";
 import NotFoundEmpty from "../NotFoundEmpty";
 import { useNavigate } from "react-router-dom";
 import { ProductDataCombobox } from "../../types/productData";
-import { getProducts } from "../../api/ProductsAPI";
+import { getProducts } from "../../apis/ProductsAPI";
 import { formatCurrency } from "../../utils/utils";
 
 

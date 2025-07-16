@@ -2,7 +2,7 @@ import { Home, Users, Truck, UserCheck } from "lucide-react";
 import SidebarMenu from "./SidebarMenu";
 import { useAuth } from "../../hooks/useAuth";
 import { useQuery } from "@tanstack/react-query";
-import { getDataInitial } from "../../api/QuerysAPI";
+import { getDataInitial } from "../../apis/QuerysAPI";
 import { Navigate } from "react-router-dom";
 import { permissionsUser } from "../../types/authData";
 import { AccordionSidebar } from "../UI/Acordion";

@@ -11,7 +11,7 @@ import { formatCurrency } from "../../utils/utils";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
 import ErrorMessage from "../ErrorMessage";
-import { cancelAdvanceOrPaymentCustomer, getDetailsByBalanceCustomer } from "../../api/CustomerBalanceAPI";
+import { cancelAdvanceOrPaymentCustomer, getDetailsByBalanceCustomer } from "../../apis/CustomerBalanceAPI";
 
 const MySwal = withReactContent(Swal);
 

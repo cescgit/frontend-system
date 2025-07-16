@@ -8,7 +8,7 @@ import { useLocation, useNavigate } from "react-router-dom"
 import NotFoundEmpty from "../../components/NotFoundEmpty"
 import { AuthPermissions } from "../../types/authData"
 import ToogleFieldsDialogAuxiliaryBook from "../../components/AuxiliaryBooks/ToogleFieldsDialogAuxiliaryBooks"
-import { getAllAccountingSources } from "../../api/AccountingSourceAPI"
+import { getAllAccountingSources } from "../../apis/AccountingSourceAPI"
 import { AccountingSourceFormDataInfo } from "../../types/accountingSourceData"
 import CreateAccountingSource from "../../components/AccountingSources/CreateAccountingSource"
 

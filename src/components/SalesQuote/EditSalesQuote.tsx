@@ -13,9 +13,9 @@ import { DataItem, TempPurchasingFormData, TempPurchasingFormDataAdd } from "../
 import { SalesQuoteFormDataEdit } from "../../types/salesQuoteData";
 import { stateValue } from "../../locales/valueState";
 import { DataItemCustomer } from "../../types/customerData";
-import { getCustomers } from "../../api/CustomerAPI";
+import { getCustomers } from "../../apis/CustomerAPI";
 import ProductsComboBoxInventory from "../Product/ProductComboBoxInventory";
-import { getDetailsSalesQuoteById, updateSalesQuote } from "../../api/SalesQuoteAPI";
+import { getDetailsSalesQuoteById, updateSalesQuote } from "../../apis/SalesQuoteAPI";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
 import { AuthPermissions } from "../../types/authData";

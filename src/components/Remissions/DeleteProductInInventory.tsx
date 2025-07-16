@@ -4,7 +4,7 @@ import { AlertTriangle } from "lucide-react";
 import { AlertDialog } from "radix-ui";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
-import { deleteProductInInventory } from "../../api/RemissionsAPI";
+import { deleteProductInInventory } from "../../apis/RemissionsAPI";
 import { ProductRemissionFormData } from "../../types/remissionsData";
 import { useLocation } from "react-router-dom";
 

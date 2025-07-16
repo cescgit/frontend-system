@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form";
 import { useEffect, useState } from "react";
 import { JWTData } from "../../types/jwtData";
 import { jwtDecode } from "jwt-decode";
-import { cancelAdvanceOrPayment, getDetailsByBalanceSupplier } from "../../api/SupplierBalanceAPI";
+import { cancelAdvanceOrPayment, getDetailsByBalanceSupplier } from "../../apis/SupplierBalanceAPI";
 import { SupplierBalanceFormDataSupplierCancel } from "../../types/supplierBalanceData";
 import { formatCurrency } from "../../utils/utils";
 import Swal from "sweetalert2";

@@ -4,7 +4,7 @@ import { Dialog } from "radix-ui";
 import { useQuery } from "@tanstack/react-query";
 import { formatCurrency, formatDate } from "../../utils/utils";
 import { useEffect, useState } from "react";
-import { getDetailsByBalanceCustomer } from "../../api/CustomerBalanceAPI";
+import { getDetailsByBalanceCustomer } from "../../apis/CustomerBalanceAPI";
 
 export default function DetailsByIdCustomerBalanceModal({id}: {id: string}) {
     const navigate = useNavigate();

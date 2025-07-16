@@ -7,7 +7,7 @@ import { useState } from "react";
 import { JWTData } from "../../types/jwtData";
 import { jwtDecode } from "jwt-decode";
 import ErrorMessage from "../../components/ErrorMessage";
-import { createAuxiliaryBook } from "../../api/AuxiliaryBookAPI";
+import { createAuxiliaryBook } from "../../apis/AuxiliaryBookAPI";
 import { AuxiliaryBookFormDataAdd } from "../../types/auxiliaryBookData";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'

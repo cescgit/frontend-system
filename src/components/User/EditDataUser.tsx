@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 import { Navigate, useLocation, useNavigate } from "react-router-dom";
 import { UserFormDataEditStaff } from "../../types/userData";
 import { useEffect, useState } from "react";
-import { getUserById, updateUser } from "../../api/UserAPI";
+import { getUserById, updateUser } from "../../apis/UserAPI";
 import { JWTData } from "../../types/jwtData";
 import { jwtDecode } from "jwt-decode";
 import LogoutAlert from "../UI/LogoutAlert";

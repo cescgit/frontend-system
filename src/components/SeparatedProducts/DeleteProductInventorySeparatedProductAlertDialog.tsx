@@ -5,7 +5,7 @@ import { AlertDialog } from "radix-ui";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
 import { useLocation } from "react-router-dom";
-import { deleteProductInInventorySeparatedproduct } from "../../api/SeparatedProductAPI";
+import { deleteProductInInventorySeparatedproduct } from "../../apis/SeparatedProductAPI";
 import { TempPurchasingFormData } from "../../types/separatedProductsData";
 
 const MySwal = withReactContent(Swal);

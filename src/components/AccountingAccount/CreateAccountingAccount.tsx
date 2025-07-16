@@ -7,12 +7,12 @@ import { useEffect, useState } from "react";
 import { JWTData } from "../../types/jwtData";
 import { jwtDecode } from "jwt-decode";
 import ErrorMessage from "../ErrorMessage";
-import { createAccountingAccount } from "../../api/AccountingAccountAPI";
+import { createAccountingAccount } from "../../apis/AccountingAccountAPI";
 import { AccountingAccountFormDataAdd } from "../../types/acountingAccountData";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
 import { DataItemTypeAccount } from "../../types/typeAccontData";
-import { getAlltypeAccount } from "../../api/TypeAccountAPI";
+import { getAlltypeAccount } from "../../apis/TypeAccountAPI";
 
 const MySwal = withReactContent(Swal);
 

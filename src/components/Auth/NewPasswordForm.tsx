@@ -4,7 +4,7 @@ import { useMutation } from "@tanstack/react-query";
 import { Eye, EyeOff, Lock } from "lucide-react";
 import { useForm } from "react-hook-form";
 import ErrorMessage from "../../components/ErrorMessage";
-import { updatePasswordWithToken } from "../../api/AuthAPI";
+import { updatePasswordWithToken } from "../../apis/AuthAPI";
 import type { ConfirmToken, NewPasswordForm } from "../../types/authData";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'

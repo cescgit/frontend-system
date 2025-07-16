@@ -14,7 +14,7 @@ import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { CustomerFormDataInfo } from "../../types/customerData";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
-import { createPreInvoicing } from "../../api/PreInvoicingAPI";
+import { createPreInvoicing } from "../../apis/PreInvoicingAPI";
 import { DataItem, PreInvoicingFormDataAdd } from "../../types/preInvoicingData";
 import ProductsComboBoxSales from "../Product/ProductsComboBoxSales";
 import CustomerComboBoxSales from "../Customer/CustomerComboBoxSales";
